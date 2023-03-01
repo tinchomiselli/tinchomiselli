@@ -1,0 +1,77 @@
+.modo-oscuro {
+    background-color: #333;
+    color: #fff;
+  }
+
+.azul {
+    background-color: #0cc0df;
+}
+.centrado {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.carousel {
+    max-width: 1000px; /* Cambia el tamaño máximo del carrusel */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+  }
+  .carousel-inner {
+    max-height: 1000px; /* Cambia la altura máxima del carrusel */
+  }
+
+a img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: crosshair;
+}
+
+.tamaño {
+    height: 300px;
+    width: 300px;
+}
+
+.accordion-body {
+    display: flex;
+    align-items: center;
+}
+  
+.img-container {
+    margin-right: 20px;
+}
+  
+.description {
+    margin-top: 5px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+  
+@media (max-width: 768px) {
+    
+.img-container {
+      margin-right: 10px;
+}
+    
+.description {
+      font-size: 14px;
+}
+  }
+
+  
+
+.derecha {
+    justify-content: flex-end;
+}
+
+.acordeon {
+height: 200px;
+width: 200px;
+}
